@@ -40,6 +40,6 @@
       }
     }
   ],
-  "download": "https://github.com/kristkos/KCTG-5e/releases/download/1.2.0/kctg-5e.zip",
-  "manifest": "https://raw.githubusercontent.com/kristkos/KCTG-5e/main/module.json"
+  "download": "https://github.com/kristkos/KCTG-1e/releases/download/1.2.0/kctg-1e.zip",
+  "manifest": "https://raw.githubusercontent.com/kristkos/KCTG-1e/main/module.json"
 }
