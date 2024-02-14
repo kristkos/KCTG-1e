@@ -2,7 +2,7 @@
   "id": "kctg-1e",
   "title": "Kris's Compendium of Trade Goods - PF1e edition",
   "description": "<i>A comprehensive database of trade goods aimed at enhancing worldbuilding efforts by facilitating the distribution of resources and bringing depth to various regions, while also catering to political interests</i><br /><br /> *** Support me on <a href=\"https://patreon.com/KCTG\" title=\"PATREON\">Patreon</a> or join me on <a href=\"https://discord.gg/MYgCWdAc9c\" title=\"Discord\">Discord</a> ***<p></p>",
-  "version": "1.2.0",
+  "version": "1.2.0a",
   "compatibility": {
     "minimum": "11",
     "verified": "11.315",
@@ -25,22 +25,22 @@
     {
         "type": "setup",
         "caption": "Kris's Compendium of Trade Goods",
-        "thumbnail": "modules/kctg-pf/banner/Thumb.webp"
+        "thumbnail": "modules/kctg-1e/banner/Thumb.webp"
     }],
   "packs": [
     {
       "name": "KCTG - PF",
       "label": "PF1e - KCTG",
-      "path": "packs/kctg-pf",
+      "path": "packs/kctg-1e",
       "type": "Item",
       "system": "pf1",
-      "banner": "modules/kctg-pf/banner/Banner.webp",
+      "banner": "modules/kctg-1e/banner/Banner.webp",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       }
     }
   ],
-  "download": "https://github.com/kristkos/KCTG-1e/releases/download/1.2.0/kctg-1e.zip",
+  "download": "https://github.com/kristkos/KCTG-1e/releases/download/1.2.0a/kctg-1e.zip",
   "manifest": "https://raw.githubusercontent.com/kristkos/KCTG-1e/main/module.json"
 }
