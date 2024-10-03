@@ -1,47 +1,52 @@
 {
-    "id": "kctg-1e",
-    "title": "Kris's Compendium of Trade Goods - PF1e edition",
-    "description": "<i>A comprehensive database of trade goods aimed at enhancing worldbuilding efforts by facilitating the distribution of resources and bringing depth to various regions, while also catering to political interests</i><br /><br /> *** Support me on <a href=\"https://patreon.com/KCTG\" title=\"PATREON\">Patreon</a> or join me on <a href=\"https://discord.gg/MYgCWdAc9c\" title=\"Discord\">Discord</a> ***<p></p>",
-    "version": "1.7.0",
-    "compatibility": {
-      "minimum": "10",
-      "verified": "11",
-      "maximum": "12"
+  "id": "kctg-1e",
+  "title": "Kris's Compendium of Trade Goods - PF1e edition",
+  "description": "<i>A comprehensive database of trade goods aimed at enhancing worldbuilding efforts by facilitating the distribution of resources and bringing depth to various regions, while also catering to political interests</i><br /><br /> *** Support me on <a href=\"https://patreon.com/KCTG\" title=\"PATREON\">Patreon</a> or join me on <a href=\"https://discord.gg/MYgCWdAc9c\" title=\"Discord\">Discord</a> ***<p></p>",
+  "version": "1.8.0",
+  "compatibility": {
+    "minimum": "10",
+    "verified": "11",
+    "maximum": "12"
+  },
+  "authors": [
+    {
+      "name": "kristkos",
+      "discord": "kristkos",
+      "url": "https://patreon.com/KCTG",
+      "flags": {}
     },
-    "authors": [
-        {
-          "name": "kristkos",
-          "discord": "kristkos",
-          "url": "https://patreon.com/KCTG",
-          "flags": {}
-        },
-        {
-        "name": "Phoenix Alexander",
-        "url": ""}
-    ],
-    "esmodules": [
-        "kctg-1e.js"
-      ],
-    "media": [
-        {
-            "type": "setup",
-            "caption": "Kris's Compendium of Trade Goods",
-            "thumbnail": "modules/kctg-1e/banner/Thumb.webp"
-        }],
-    "packs": [    {
-        "name": "kctg-1e",
-        "label": "PF1e - KCTG",
-        "path": "packs/kctg-1e",
-        "type": "Item",
-        "ownership": {
-          "PLAYER": "OBSERVER",
-          "ASSISTANT": "OWNER"
-        },
-        "banner": "modules/kctg-1e/banner/Banner.webp",
-        "system": "pf1",
-        "flags": {}
-      }
-        ],
-        "download": "https://github.com/kristkos/KCTG-1e/releases/download/1.7.0/kctg-1e.zip",
-        "manifest": "https://raw.githubusercontent.com/kristkos/KCTG-1e/main/module.json"
-      }
+    {
+      "name": "Phoenix Alexander",
+      "flags": {}
+    }
+  ],
+  "esmodules": [
+    "kctg-1e.js"
+  ],
+  "media": [
+    {
+      "type": "setup",
+      "caption": "Kris's Compendium of Trade Goods",
+      "thumbnail": "modules/kctg-1e/banner/Thumb.webp",
+      "loop": false,
+      "flags": {}
+    }
+  ],
+  "packs": [
+    {
+      "name": "kctg-1e",
+      "label": "PF1e - KCTG",
+      "path": "packs/kctg-1e",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "banner": "modules/kctg-1e/banner/Banner.webp",
+      "system": "pf1",
+      "flags": {}
+    }
+  ],
+  "download": "https://github.com/kristkos/KCTG-1e/releases/download/1.8.0/kctg-1e.zip",
+  "manifest": "https://raw.githubusercontent.com/kristkos/KCTG-1e/main/module.json"
+}
