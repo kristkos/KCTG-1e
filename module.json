@@ -1,12 +1,12 @@
 {
   "id": "kctg-1e",
   "title": "Kris's Compendium of Trade Goods - PF1e edition",
-  "description": "<i>A comprehensive database of trade goods aimed at enhancing worldbuilding efforts by facilitating the distribution of resources and bringing depth to various regions, while also catering to political interests</i><br/><br/> *** Support me on <a href=\"https://patreon.com/KCTG\" title=\"PATREON\">Patreon</a> or join me on <a href=\"https://discord.gg/MYgCWdAc9c\" title=\"Discord\">Discord</a> ***<p></p>",
-  "version": "1.21.0",
+  "description": "<i>A comprehensive database of trade goods aimed at enhancing worldbuilding efforts by facilitating the distribution of resources and bringing depth to various regions, while also catering to political interests</i><br /><br /> *** Support me on <a href=\"https://patreon.com/KCTG\" title=\"PATREON\">Patreon</a> or join me on <a href=\"https://discord.gg/MYgCWdAc9c\" title=\"Discord\">Discord</a> ***<p></p>",
+  "version": "1.22.0",
   "compatibility": {
     "minimum": "12",
-    "verified": "13.350",
-    "maximum": "13"
+    "verified": "13.351",
+    "maximum": "14"
   },
   "authors": [
     {
@@ -24,7 +24,9 @@
     "kctg-1e.js"
   ],
   "styles": [
-    "styles/main.css"
+    {
+      "src": "styles/main.css"
+    }
   ],
   "media": [
     {
@@ -38,19 +40,33 @@
   "packs": [
     {
       "name": "kctg-1e",
-      "label": "Pathfinder 1e",
+      "label": "Trade Goods",
       "path": "packs/kctg-1e",
       "type": "Item",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       },
-      "banner": "modules/kctg-1e/banner/Banner.webp",
+      "banner": "modules/kctg-1e/banner/banner-tradegoods.webp",
+      "system": "pf1",
+      "flags": {}
+    },
+        {
+      "name": "kctg-1e-armmaments",
+      "label": "Armaments",
+      "path": "packs/kctg-1e-armaments",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "banner": "modules/kctg-1e/banner/banner-armaments.webp",
       "system": "pf1",
       "flags": {}
     }
   ],
-  "download": "https://github.com/kristkos/KCTG-1e/releases/download/1.21.0/kctg-1e.zip",
+  "download": "https://github.com/kristkos/KCTG-1e/releases/download/1.22.0/kctg-1e.zip",
   "manifest": "https://raw.githubusercontent.com/kristkos/KCTG-1e/main/module.json",
-    "url": "https://github.com/kristkos/KCTG-1e"
+  "url": "https://github.com/kristkos/KCTG-1e",
+  "flags": {}
 }
